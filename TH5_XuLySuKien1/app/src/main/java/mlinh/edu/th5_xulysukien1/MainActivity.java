@@ -37,58 +37,35 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TimDieuKhien();
         //gắn bộ lắng nghe sự kiện và code xử lý cho từng nút
+
         View.OnClickListener boLangNgheCong = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //xử lý cộng ở đây
-                String soThu1 = editTextSo1.getText().toString();
-                String soThu2 = editTextSo2.getText().toString();
-                float so_1 = Float.parseFloat(soThu1);
-                float so_2 = Float.parseFloat(soThu2);
-                float tong = so_1 + so_2;
-                String chuoiKQ = String.valueOf(tong);
-                editTextKQ.setText(chuoiKQ);
-
+                XuLy_Cong();
             }
         };
         nutCong.setOnClickListener(boLangNgheCong);
+        //Inline
         nutTru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //xử lý ở đây
-                String soThu1 = editTextSo1.getText().toString();
-                String soThu2 = editTextSo2.getText().toString();
-                float so_1 = Float.parseFloat(soThu1);
-                float so_2 = Float.parseFloat(soThu2);
-                float hieu = so_1 - so_2;
-                String chuoiKQ = String.valueOf(hieu);
-                editTextKQ.setText(chuoiKQ);
+                XuLy_Tru();
             }
         });
         nutNhan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //xử lý ở đây
-                String soThu1 = editTextSo1.getText().toString();
-                String soThu2 = editTextSo2.getText().toString();
-                float so_1 = Float.parseFloat(soThu1);
-                float so_2 = Float.parseFloat(soThu2);
-                float tich = so_1 * so_2;
-                String chuoiKQ = String.valueOf(tich);
-                editTextKQ.setText(chuoiKQ);
+                XuLy_Nhan();
             }
         });
         nutChia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //xử lý chia
-                String soThu1 = editTextSo1.getText().toString();
-                String soThu2 = editTextSo2.getText().toString();
-                float so_1 = Float.parseFloat(soThu1);
-                float so_2 = Float.parseFloat(soThu2);
-                float thuong = so_1 / so_2;
-                String chuoiKQ = String.valueOf(thuong);
-                editTextKQ.setText(chuoiKQ);
+               XuLy_Chia();
             }
         });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -96,6 +73,62 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    void XuLy_Cong(){
+        //lấy dữ liệu
+        String so_1 = editTextSo1.getText().toString();
+        String so_2 = editTextSo2.getText().toString();
+
+        float num1 = Float.parseFloat(so_1);
+        float num2 = Float.parseFloat(so_2);
+        //
+        float tong = num1 + num2;
+        //
+        String chuoiKQ = String.valueOf(tong);
+        editTextKQ.setText(chuoiKQ);
+
+    }
+    void XuLy_Tru(){
+        //lấy dữ liệu
+        String so_1 = editTextSo1.getText().toString();
+        String so_2 = editTextSo2.getText().toString();
+
+        float num1 = Float.parseFloat(so_1);
+        float num2 = Float.parseFloat(so_2);
+        //
+        float hieu = num1 - num2;
+        //
+        String chuoiKQ = String.valueOf(hieu);
+        editTextKQ.setText(chuoiKQ);
+
+    }
+    void XuLy_Nhan(){
+        //lấy dữ liệu
+        String so_1 = editTextSo1.getText().toString();
+        String so_2 = editTextSo2.getText().toString();
+
+        float num1 = Float.parseFloat(so_1);
+        float num2 = Float.parseFloat(so_2);
+        //
+        float tich = num1 * num2;
+        //
+        String chuoiKQ = String.valueOf(tich);
+        editTextKQ.setText(chuoiKQ);
+
+    }
+    void XuLy_Chia(){
+        //lấy dữ liệu
+        String so_1 = editTextSo1.getText().toString();
+        String so_2 = editTextSo2.getText().toString();
+
+        float num1 = Float.parseFloat(so_1);
+        float num2 = Float.parseFloat(so_2);
+        //
+        float thuong = num1 / num2;
+        //
+        String chuoiKQ = String.valueOf(thuong);
+        editTextKQ.setText(chuoiKQ);
+
     }
 
 }
