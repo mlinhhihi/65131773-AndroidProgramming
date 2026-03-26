@@ -6,4 +6,5 @@
 
 ##### ***Học phần: Lập trình thiết bị di động\_65.CNTT-2;***
 
-<img width="815" height="1263" alt="th9" src="https://github.com/user-attachments/assets/cf2faf88-4f71-47f0-8bd5-5b7450dbf61a" />
+<img width="667" height="1225" alt="th9" src="https://github.com/user-attachments/assets/a16e2ccf-3997-4660-a031-ea4b2fb8e04f" />
+
