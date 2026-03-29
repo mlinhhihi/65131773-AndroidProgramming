@@ -20,6 +20,8 @@
 <img width="300" height="500" alt="th9" src="https://github.com/user-attachments/assets/cf2faf88-4f71-47f0-8bd5-5b7450dbf61a" />
 
 
+
+
 **SuDungDrawableResource**
 
 [đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/SuDungDrawableResource/app/src/main/res/drawable/header_bg.xml
