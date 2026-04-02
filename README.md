@@ -51,5 +51,15 @@
 <img width="300" height="500" alt="th12" src="https://github.com/user-attachments/assets/2ce8180d-0368-44d8-a454-d0ea515e3f59" />
 
 
+**BaiTH13.ThayDoiFragment**
+[đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH13ThayDoiFragment/app/src/main/java/thom/edu/th13thaydoifragment/FooterFragment.java)
+
+<div style="display: flex; gap: 10px;">
+    <img src="https://github.com/user-attachments/assets/4cd97270-6fe8-4559-83ab-b20bd7ef3125" width="200" height="600">
+    <img src="https://github.com/user-attachments/assets/2e47f7c9-de38-479a-9875-4fdddbb47ca6" width="200" height="600">
+    <img src="https://github.com/user-attachments/assets/263245b2-b179-4d2c-8669-fbb1a42e4f5d" width="200" height="600">
+</div>
+
+
 
 
