@@ -33,8 +33,8 @@
 [đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH10_ViduIntentDonGian/app/src/main/java/thom/edu/th10_viduintentdongian/MainActivity.java)
 
 <div style="display: flex; gap: 10px;">
-    <img src="https://github.com/user-attachments/assets/347720c1-28a1-4da4-ac1d-b3ddabc6d3f0" width="150" height="300">
-    <img src="https://github.com/user-attachments/assets/2fa21865-04b2-4369-8638-6589e27e27e3" width="150" height="300">
+    <img src="https://github.com/user-attachments/assets/347720c1-28a1-4da4-ac1d-b3ddabc6d3f0" width="200" height="600">
+    <img src="https://github.com/user-attachments/assets/2fa21865-04b2-4369-8638-6589e27e27e3" width="200" height="600">
 </div>
 
 
