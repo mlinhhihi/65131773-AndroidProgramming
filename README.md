@@ -29,4 +29,11 @@
 
 <img width="300" height="500" alt="drawable" src="https://github.com/user-attachments/assets/bbf689bc-4ec4-459b-9ac4-1ff177ec6965" />
 
+**BaiTH11.FragmentTinh**
+[đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH11_FragmentTinh/app/src/main/res/layout/activity_main.xml)
+
+<img width="300" height="500" alt="th1" src="https://github.com/user-attachments/assets/bae75d30-82d1-4a96-a5d4-22fcbad50ad2" />
+
+
+
 
