@@ -35,5 +35,12 @@
 <img width="300" height="500" alt="th1" src="https://github.com/user-attachments/assets/bae75d30-82d1-4a96-a5d4-22fcbad50ad2" />
 
 
+**BaiTH12.FragmentDong**
+[đây dẫn đến bài làm] (https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/BaiTH12_FragmentDong/app/src/main/java/thom/edu/baith12_fragmentdong/MainActivity.java)
+
+
+<img width="300" height="500" alt="th12" src="https://github.com/user-attachments/assets/2ce8180d-0368-44d8-a454-d0ea515e3f59" />
+
+
 
 
