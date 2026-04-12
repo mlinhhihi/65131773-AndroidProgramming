@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_cau1"
+        android:icon="@android:drawable/stat_notify_voicemail"
+        android:title="Câu 1" />
+    <item
+        android:id="@+id/nav_cau2"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Câu 2" />
+    <item
+        android:id="@+id/nav_cau3"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Câu 3" />
+    <item
+        android:id="@+id/nav_cau4"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Câu 4" />
+
+</menu>
