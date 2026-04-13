@@ -8,9 +8,7 @@
 <br>
 <br>
 
-**Bài 8: Tùy chỉnh Listview(APP món an)**
-[đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH8_TuyChinhLV/app/src/main/java/mlinh/edu/th8_tuychinhlv/MainActivity.java)
-
+**Bài 8: Tùy chỉnh Listview(APP món an)**[đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH8_TuyChinhLV/app/src/main/java/mlinh/edu/th8_tuychinhlv/MainActivity.java)
 
 <img width="300" height="500" alt="bai8" src="https://github.com/user-attachments/assets/c3653808-87f0-4ff7-bd38-a0ce4d6d3b0d" />
 <br>
