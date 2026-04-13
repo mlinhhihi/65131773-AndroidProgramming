@@ -13,6 +13,8 @@
 
 
 <img width="300" height="500" alt="bai8" src="https://github.com/user-attachments/assets/c3653808-87f0-4ff7-bd38-a0ce4d6d3b0d" />
+<br>
+<br>
 
 ****Bài 9**:Recyclerview (Hiển thị danh sách các đối tượng)**
 
@@ -21,8 +23,8 @@
 
 <img width="300" height="500" alt="th9" src="https://github.com/user-attachments/assets/cf2faf88-4f71-47f0-8bd5-5b7450dbf61a" />
 
-
-
+<br>
+<br>
 
 **SuDungDrawableResource**
 
@@ -30,6 +32,9 @@
 )
 
 <img width="300" height="500" alt="drawable" src="https://github.com/user-attachments/assets/bbf689bc-4ec4-459b-9ac4-1ff177ec6965" />
+
+<br>
+<br>
 
 **BaiTH10_ViduIntentDonGian:**
 [đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH10_ViduIntentDonGian/app/src/main/java/thom/edu/th10_viduintentdongian/MainActivity.java)
@@ -39,11 +44,17 @@
     <img src="https://github.com/user-attachments/assets/2fa21865-04b2-4369-8638-6589e27e27e3" width="200" height="600">
 </div>
 
+<br>
+<br>
+
 
 **BaiTH11.FragmentTinh**
 [đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH11_FragmentTinh/app/src/main/res/layout/activity_main.xml)
 
 <img width="300" height="500" alt="th1" src="https://github.com/user-attachments/assets/bae75d30-82d1-4a96-a5d4-22fcbad50ad2" />
+
+<br>
+<br>
 
 
 **BaiTH12.FragmentDong**
@@ -51,6 +62,9 @@
 
 
 <img width="300" height="500" alt="th12" src="https://github.com/user-attachments/assets/2ce8180d-0368-44d8-a454-d0ea515e3f59" />
+
+<br>
+<br>
 
 
 **BaiTH13.ThayDoiFragment**
@@ -61,6 +75,20 @@
     <img src="https://github.com/user-attachments/assets/2e47f7c9-de38-479a-9875-4fdddbb47ca6" width="200" height="600">
     <img src="https://github.com/user-attachments/assets/263245b2-b179-4d2c-8669-fbb1a42e4f5d" width="200" height="600">
 </div>
+
+<br>
+<br>
+
+**Bottom_Navigation** 
+[code ở đây](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/Bottom_Navigation/app/src/main/java/linh65131773/edu/bottom_navigation/MainActivity.java)
+
+<div style="display: flex; gap: 10px;">
+    <img width="200" height="600" alt="bt_navhome" src="https://github.com/user-attachments/assets/2e075275-1652-470c-8ad9-bc54b260bc4a" />
+    <img width="200" height="600" alt="bt_navcau1" src="https://github.com/user-attachments/assets/d1be5aac-83a2-46e0-a768-c879402ec2f7" />
+    <img width="200" height="600" alt="bt_navcau2" src="https://github.com/user-attachments/assets/7346ef58-8280-4bc9-ab35-5c4b7e40dafe" />
+    <img width="200" height="600" alt="bt_navcau3" src="https://github.com/user-attachments/assets/215b0f05-fe4a-4e08-ade4-b6be364de856" />
+</div>
+
 
 
 
