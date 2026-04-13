@@ -44,7 +44,7 @@ public class Cau3Fragment extends Fragment {
         recylerViewtDatas.add(new LandScape("nhatrang", "Quảng Trường 2-4 Nha Trang"));
         recylerViewtDatas.add(new LandScape("danang", "Cầu Rồng Đà Nẵng"));
     }
-
+    //Mỹ Linh
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
