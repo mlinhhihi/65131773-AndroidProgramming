@@ -7,6 +7,7 @@
 ##### ***Học phần: Lập trình thiết bị di động\_65.CNTT-2;***
 <br>
 <br>
+
 **Bài 8: Tùy chỉnh Listview(APP món an)**
 [đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH8_TuyChinhLV/app/src/main/java/mlinh/edu/th8_tuychinhlv/MainActivity.java)
 
