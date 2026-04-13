@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 }else if (itemId == R.id.nav_cau4) {
                     selectedFragment = new Cau4Fragment();
                 }
-                //
+
                 if (selectedFragment != null){
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragmentSpace, selectedFragment).commit();
                 }

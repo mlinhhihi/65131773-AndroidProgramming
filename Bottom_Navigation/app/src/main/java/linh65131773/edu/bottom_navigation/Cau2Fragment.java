@@ -7,41 +7,20 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Cau2Fragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+
+
 public class Cau2Fragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public Cau2Fragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Cau2Fragment.
-     */
     // TODO: Rename and change types and number of parameters
     public static Cau2Fragment newInstance(String param1, String param2) {
         Cau2Fragment fragment = new Cau2Fragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -49,16 +28,39 @@ public class Cau2Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cau2, container, false);
+        View viewCau2 = inflater.inflate(R.layout.fragment_cau2, container, false);
+        //Tìm Listview
+        ListView lvDSMonAN = viewCau2.findViewById(R.id.lvDsMonAn);
+        //Chuẩn bị dữ liệu
+        ArrayList<MonAn> dsMonAN = new ArrayList<MonAn>();
+        MonAn m1 = new MonAn("Cơm cà ri Heo/Gà chiên xù", 69000, "Mô tả ở đây", R.drawable.comcrheoga);
+        dsMonAN.add(m1);
+        dsMonAN.add(new MonAn("Cơm lươn Nhật Bản", 99000, "Mô tả ở đây", R.drawable.comluon));
+        dsMonAN.add(new MonAn("Cuộn trứng Tamago", 38000, "Mô tả ở đây", R.drawable.cuontruongtmg));
+        dsMonAN.add(new MonAn("MISO soup", 18000, "Mô tả ở đây", R.drawable.misosup));
+        dsMonAN.add(new MonAn("UDON xào", 75000, "Mô tả ở đây", R.drawable.udonxao));
+
+        //Tạo Adapter
+        MonAnAdapter adapter = new MonAnAdapter(viewCau2.getContext(), dsMonAN);
+        lvDSMonAN.setAdapter(adapter);
+
+        //bắt xử lý sự kiện
+        lvDSMonAN.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //lấy phần tử được chọn
+                MonAn monAnChon = dsMonAN.get(position);
+                //làm gì đó, tùy bài
+                Toast.makeText(getContext(), monAnChon.getTenMonAn(), Toast.LENGTH_SHORT).show();
+            }
+        });
+        return viewCau2;
     }
+
 }
