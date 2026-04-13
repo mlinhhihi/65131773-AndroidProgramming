@@ -5,7 +5,8 @@
 ##### ***Các bài thực hành và bài tập được lưu tại đây   Trương Thị Mỹ Linh***
 
 ##### ***Học phần: Lập trình thiết bị di động\_65.CNTT-2;***
-
+<br>
+<br>
 **Bài 8: Tùy chỉnh Listview(APP món an)**
 [đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH8_TuyChinhLV/app/src/main/java/mlinh/edu/th8_tuychinhlv/MainActivity.java)
 
@@ -59,6 +60,8 @@
     <img src="https://github.com/user-attachments/assets/2e47f7c9-de38-479a-9875-4fdddbb47ca6" width="200" height="600">
     <img src="https://github.com/user-attachments/assets/263245b2-b179-4d2c-8669-fbb1a42e4f5d" width="200" height="600">
 </div>
+
+
 
 
 
