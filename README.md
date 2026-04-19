@@ -38,8 +38,8 @@
 [đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH10_ViduIntentDonGian/app/src/main/java/thom/edu/th10_viduintentdongian/MainActivity.java)
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/347720c1-28a1-4da4-ac1d-b3ddabc6d3f0" width="200" height="600">
-    <img src="https://github.com/user-attachments/assets/2fa21865-04b2-4369-8638-6589e27e27e3" width="200" height="600">
+    <img src="https://github.com/user-attachments/assets/347720c1-28a1-4da4-ac1d-b3ddabc6d3f0" width="200">
+    <img src="https://github.com/user-attachments/assets/2fa21865-04b2-4369-8638-6589e27e27e3" width="200">
 </p>
 
 <br>
@@ -69,9 +69,9 @@
 [đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH13ThayDoiFragment/app/src/main/java/thom/edu/th13thaydoifragment/FooterFragment.java)
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/4cd97270-6fe8-4559-83ab-b20bd7ef3125" width="200" height="600">
-    <img src="https://github.com/user-attachments/assets/2e47f7c9-de38-479a-9875-4fdddbb47ca6" width="200" height="600">
-    <img src="https://github.com/user-attachments/assets/263245b2-b179-4d2c-8669-fbb1a42e4f5d" width="200" height="600">
+    <img src="https://github.com/user-attachments/assets/4cd97270-6fe8-4559-83ab-b20bd7ef3125" width="200">
+    <img src="https://github.com/user-attachments/assets/2e47f7c9-de38-479a-9875-4fdddbb47ca6" width="200">
+    <img src="https://github.com/user-attachments/assets/263245b2-b179-4d2c-8669-fbb1a42e4f5d" width="200">
 </p>
 
 <br>
@@ -81,10 +81,10 @@
 [code ở đây](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/Bottom_Navigation/app/src/main/java/linh65131773/edu/bottom_navigation/MainActivity.java)
 
 <p align="center">
-    <img width="200" height="600" alt="bt_navhome" src="https://github.com/user-attachments/assets/2e075275-1652-470c-8ad9-bc54b260bc4a" />
-    <img width="200" height="600" alt="bt_navcau1" src="https://github.com/user-attachments/assets/d1be5aac-83a2-46e0-a768-c879402ec2f7" />
-    <img width="200" height="600" alt="bt_navcau2" src="https://github.com/user-attachments/assets/7346ef58-8280-4bc9-ab35-5c4b7e40dafe" />
-    <img width="200" height="600" alt="bt_navcau3" src="https://github.com/user-attachments/assets/215b0f05-fe4a-4e08-ade4-b6be364de856" />
+    <img width="200" alt="bt_navhome" src="https://github.com/user-attachments/assets/2e075275-1652-470c-8ad9-bc54b260bc4a" />
+    <img width="200" alt="bt_navcau1" src="https://github.com/user-attachments/assets/d1be5aac-83a2-46e0-a768-c879402ec2f7" />
+    <img width="200" alt="bt_navcau2" src="https://github.com/user-attachments/assets/7346ef58-8280-4bc9-ab35-5c4b7e40dafe" />
+    <img width="200" alt="bt_navcau3" src="https://github.com/user-attachments/assets/215b0f05-fe4a-4e08-ade4-b6be364de856" />
 </p>
 
 
