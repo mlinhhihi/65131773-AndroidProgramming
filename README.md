@@ -12,6 +12,8 @@
 <br>
 
 **CÂu 1**
+[code ở đây _ COMMIT lần 2](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau1Fragment.java
+)
 
 <p align="center">
     <img width="200" alt="ThiGK_CHuVI" src="https://github.com/user-attachments/assets/a1c3ad39-b1db-464e-8841-79b1a355de8e" />
