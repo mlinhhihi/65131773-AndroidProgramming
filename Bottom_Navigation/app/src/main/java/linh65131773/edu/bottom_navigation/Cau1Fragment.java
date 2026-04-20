@@ -1,4 +1,4 @@
-package linh65131773.edu.bottom_navigation;
+package thigk2.truongthimylinh.edu.thigk_65131773;
 
 import android.os.Bundle;
 
@@ -9,19 +9,29 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * A simple {@link Fragment} subclass.
+ * Use the {@link Cau1Fragment#newInstance} factory method to
+ * create an instance of this fragment.
+ */
 public class Cau1Fragment extends Fragment {
 
+    //
+    EditText editText_ChieuDai;
+    EditText editText_ChieuRong;
+    Button btnChuVi;
+    Button btnDienTich;
+    TextView txtKetQua;
 
-    EditText editText_Met;
-    EditText editText_Kilomet;
-    Button btnChuyen;
 
-
+    // TODO: Rename and change types and number of parameters
     public static Cau1Fragment newInstance(String param1, String param2) {
         Cau1Fragment fragment = new Cau1Fragment();
         Bundle args = new Bundle();
+
         fragment.setArguments(args);
         return fragment;
     }
@@ -29,42 +39,75 @@ public class Cau1Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
 
+        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        // Inflate the layout for this fragment
         View viewCau1 = inflater.inflate(R.layout.fragment_cau1, container, false);
         //tìm điều khiển trong view này
-        editText_Met = viewCau1.findViewById(R.id.edtSoMet);
-        editText_Kilomet = viewCau1.findViewById(R.id.edtSoKm);
-        btnChuyen = viewCau1.findViewById(R.id.btnDoi);
-        btnChuyen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String duLieuMet = editText_Met.getText().toString();
-                String dulieuKm = editText_Kilomet.getText().toString();
-                //
-                if(!duLieuMet.isEmpty()) //user có nhâp dữ liệu mét -> cần đổi sang km
-                {
-                    double met = Double.parseDouble(duLieuMet);
-                    double km = met / 1000;
+        editText_ChieuDai = viewCau1.findViewById(R.id.edtChieuDai);
+        editText_ChieuRong = viewCau1.findViewById(R.id.edtChieuRong);
+        txtKetQua = viewCau1.findViewById(R.id.txtKetQua);
+        btnChuVi = viewCau1.findViewById(R.id.btnChuVi);
+        btnDienTich = viewCau1.findViewById(R.id.btnDienTich);
 
-                    editText_Kilomet.setText(String.valueOf(km));
-                    Toast.makeText(viewCau1.getContext(), "m - > km", Toast.LENGTH_SHORT).show();
+        //tính chu vi
+        btnChuVi.setOnClickListener(v -> {
+            String strDai = editText_ChieuDai.getText().toString().trim();
+            String strRong = editText_ChieuRong.getText().toString().trim();
+
+            if (strDai.isEmpty() || strRong.isEmpty()) {
+                txtKetQua.setText("Vui lòng nhập đầy đủ!");
+                return;
+            }
+
+            try {
+                double dai = Double.parseDouble(strDai);
+                double rong = Double.parseDouble(strRong);
+
+                if (dai <= 0 || rong <= 0) {
+                    txtKetQua.setText("Dữ liệu phải > 0!");
+                    return;
                 }
-                else //km -> m
-                {
 
-                    double km = Double.parseDouble(dulieuKm);
-                    double met = km * 1000;
+                double chuVi = 2 * (dai + rong);
 
-                    editText_Met.setText(String.valueOf(met));
-                    Toast.makeText(viewCau1.getContext(), "km - > m", Toast.LENGTH_SHORT).show();
+                txtKetQua.setText("Chu vi: " + String.format("%.2f", chuVi));
+
+            } catch (Exception e) {
+                txtKetQua.setText("Dữ liệu không hợp lệ!");
+            }
+        });
+
+        //tính diện tích
+        btnDienTich.setOnClickListener(v -> {
+            String strDai = editText_ChieuDai.getText().toString().trim();
+            String strRong = editText_ChieuRong.getText().toString().trim();
+
+            if (strDai.isEmpty() || strRong.isEmpty()) {
+                txtKetQua.setText("Vui lòng nhập đầy đủ!");
+                return;
+            }
+
+            try {
+                double dai = Double.parseDouble(strDai);
+                double rong = Double.parseDouble(strRong);
+
+                if (dai <= 0 || rong <= 0) {
+                    txtKetQua.setText("Dữ liệu phải > 0!");
+                    return;
                 }
+
+                double dienTich = dai * rong;
+
+                txtKetQua.setText("Diện tích: " + String.format("%.2f", dienTich));
+
+            } catch (Exception e) {
+                txtKetQua.setText("Dữ liệu không hợp lệ!");
             }
         });
         return viewCau1;
