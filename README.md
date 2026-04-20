@@ -29,6 +29,12 @@
 <br>
 <br>
 
+**Câu 3**
+
+<img width="300" height="600" alt="cau3" src="https://github.com/user-attachments/assets/ad1e51b2-ae62-4dfb-aee5-9bd7beb311d8" />
+
+<br>
+<br>
 **Bài 8: Tùy chỉnh Listview(APP món an)**[đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH8_TuyChinhLV/app/src/main/java/mlinh/edu/th8_tuychinhlv/MainActivity.java)
 
 <img width="300" height="500" alt="bai8" src="https://github.com/user-attachments/assets/c3653808-87f0-4ff7-bd38-a0ce4d6d3b0d" />
