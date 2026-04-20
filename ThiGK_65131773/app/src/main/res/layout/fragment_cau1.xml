@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
         android:layout_marginTop="37dp"
-        android:text="Chiều rộng(km):"
+        android:text="Chiều rộng (m):"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -70,20 +70,38 @@
 
     <Button
         android:id="@+id/btnChuVi"
-        android:layout_width="101dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="124dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
         android:text="Tính Chu vi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtChieuRong" />
+
     <Button
-        android:id="@+id/btnChuVi"
-        android:layout_width="101dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="48dp"
-        android:text="Tính Chu vi"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/btnDienTich"
+        android:layout_width="124dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="48dp"
+        android:text="Tính Diện Tích"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toEndOf="@+id/btnChuVi"
         app:layout_constraintTop_toBottomOf="@+id/edtChieuRong" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Kết quả: "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChuVi" />
 </androidx.constraintlayout.widget.ConstraintLayout>
