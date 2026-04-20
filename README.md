@@ -25,7 +25,7 @@
 
 **Câu 2**
 
-[code ở đây _ COMMIT lần 3]([code ở đây _ COMMIT lần 2](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau1Fragment.java
+[code ở đây _ COMMIT lần 3](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau1Fragment.java
 )
 )
 
