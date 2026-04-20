@@ -28,9 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 Fragment selectedFragment = null;
                 int itemId = menuItem.getItemId();
-                if (itemId == R.id.nav_home){
-                    selectedFragment = new HomeFragment();
-                } else if (itemId == R.id.nav_cau1) {
+                if (itemId == R.id.nav_cau1) {
                     selectedFragment = new Cau1Fragment();
                 }else if (itemId == R.id.nav_cau2) {
                     selectedFragment = new Cau2Fragment();

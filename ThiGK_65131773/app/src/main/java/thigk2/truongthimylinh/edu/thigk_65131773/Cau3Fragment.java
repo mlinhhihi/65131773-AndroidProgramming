@@ -45,6 +45,10 @@ public class Cau3Fragment extends Fragment {
         recylerViewtDatas = new ArrayList<>();
         recylerViewtDatas.add(new LandScape("quangtruong", "Quảng Trường"));
         recylerViewtDatas.add(new LandScape("thapba", "Tháp bà"));
+        recylerViewtDatas.add(new LandScape("vinp", "Vinpearl Nha Trang"));
+        recylerViewtDatas.add(new LandScape("vienhaiduonghoc", "Viện hải dương học"));
+        recylerViewtDatas.add(new LandScape("honmun", "Đảo Hòn Mun"));
+        recylerViewtDatas.add(new LandScape("hontam", "Đảo Hòn Tằm"));
     }
     //Mỹ Linh
     @Override
