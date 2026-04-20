@@ -40,8 +40,10 @@ public class Cau2Fragment extends Fragment {
         View viewCau2 = inflater.inflate(R.layout.fragment_cau2, container, false);
 
         dsTenTinhThanhVN = new ArrayList<>();
-        dsTenTinhThanhVN.add("Hà Nội");
+        dsTenTinhThanhVN.add("Trương Thị Mỹ Linh");
         dsTenTinhThanhVN.add("TP Hồ Chí Minh");
+        dsTenTinhThanhVN.add("Hải Dương");
+        dsTenTinhThanhVN.add("Gia Lai");
         dsTenTinhThanhVN.add("Hải Phòng");
         dsTenTinhThanhVN.add("Đà Nẵng");
         dsTenTinhThanhVN.add("Cần Thơ");
