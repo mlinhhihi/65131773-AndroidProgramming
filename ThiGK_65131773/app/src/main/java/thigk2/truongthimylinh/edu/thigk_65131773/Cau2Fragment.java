@@ -7,41 +7,21 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Cau2Fragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+
+
 public class Cau2Fragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public Cau2Fragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Cau2Fragment.
-     */
+    ArrayList<String> dsTenTinhThanhVN;
     // TODO: Rename and change types and number of parameters
     public static Cau2Fragment newInstance(String param1, String param2) {
         Cau2Fragment fragment = new Cau2Fragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+
         fragment.setArguments(args);
         return fragment;
     }
@@ -50,15 +30,41 @@ public class Cau2Fragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cau2, container, false);
+        View viewCau2 = inflater.inflate(R.layout.fragment_cau2, container, false);
+
+        dsTenTinhThanhVN = new ArrayList<>();
+        dsTenTinhThanhVN.add("Hà Nội");
+        dsTenTinhThanhVN.add("TP Hồ Chí Minh");
+        dsTenTinhThanhVN.add("Hải Phòng");
+        dsTenTinhThanhVN.add("Đà Nẵng");
+        dsTenTinhThanhVN.add("Cần Thơ");
+        dsTenTinhThanhVN.add("Bà Rịa - Vũng Tàu");
+        dsTenTinhThanhVN.add("Khánh Hòa");
+        dsTenTinhThanhVN.add("Kiên Giang");
+
+        // B2: Adapter
+        ArrayAdapter<String> adapterTinhThanh = new ArrayAdapter<>(
+                getContext(),
+                android.R.layout.simple_list_item_1,
+                dsTenTinhThanhVN
+        );
+
+        // B3: ListView
+        ListView lvTenTinhThanh = viewCau2.findViewById(R.id.lvDSTinhThanh);
+        lvTenTinhThanh.setAdapter(adapterTinhThanh);
+
+        // B4: Click item
+        lvTenTinhThanh.setOnItemClickListener((parent, view, position, id) -> {
+            String tenTinh = dsTenTinhThanhVN.get(position);
+            Toast.makeText(getContext(), tenTinh, Toast.LENGTH_LONG).show();
+        });
+        return viewCau2;
     }
 }
