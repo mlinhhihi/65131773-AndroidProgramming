@@ -25,8 +25,7 @@
 
 **Câu 2**
 
-[code ở đây _ COMMIT lần 3](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau1Fragment.java
-)
+[code ở đây _ COMMIT lần 3](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau2Fragment.java
 )
 
 <img width="300" height="500" alt="THIgk_Cau2" src="https://github.com/user-attachments/assets/74182725-725b-4f7a-ac0e-a9b51005e2a1" />
