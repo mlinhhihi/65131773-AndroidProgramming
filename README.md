@@ -13,8 +13,10 @@
 
 **CÂu 1**
 
-
-<img width="300" height="500" alt="ThiGK_Cau1" src="https://github.com/user-attachments/assets/03bfeceb-aaa5-49b3-a8fb-b0761039c30a" />
+<p align="center">
+    <img width="200" alt="ThiGK_CHuVI" src="https://github.com/user-attachments/assets/a1c3ad39-b1db-464e-8841-79b1a355de8e" />
+    <img width="200" alt="thiGK_S" src="https://github.com/user-attachments/assets/ffd94230-5657-4708-8111-a9bfe5cb6011" />
+</p>
 
 <br>
 <br>
