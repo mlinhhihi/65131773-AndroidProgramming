@@ -29,7 +29,7 @@
 <br>
 <br>
 
-**Câu 3**
+**Câu 3** (Sửa bài)
 
 <img width="300" height="600" alt="cau3" src="https://github.com/user-attachments/assets/ad1e51b2-ae62-4dfb-aee5-9bd7beb311d8" />
 
