@@ -11,6 +11,9 @@
 **THIGK2**
 <br>
 
+[code ở đây _ COMMIT lần 1](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/MainActivity.java
+)
+
 **CÂu 1**
 [code ở đây _ COMMIT lần 2](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau1Fragment.java
 )
