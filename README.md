@@ -34,7 +34,13 @@
 <br>
 <br>
 
-**Câu 3** (Sửa bài)
+**Câu 3**
+[code ở đây _ COMMIT lần 5](https://github.com/mlinhhihi/65131773-AndroidProgramming/commit/d50c035178cb7256b4e76b025286ef0c5f66aae1#diff-a96c4bfe2ba0c78e7aa1dd8bb42da88ef631004d72c70751dd4c483308072b34
+)
+
+[code ở đây _ sửa bài](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau3Fragment.java
+)
+
 
 <img width="300" height="600" alt="cau3" src="https://github.com/user-attachments/assets/ad1e51b2-ae62-4dfb-aee5-9bd7beb311d8" />
 
