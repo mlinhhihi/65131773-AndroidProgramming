@@ -11,7 +11,12 @@
 **THIGK2**
 <br>
 
+[code ở đây _ COMMIT lần 1](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/MainActivity.java
+)
+
 **CÂu 1**
+[code ở đây _ COMMIT lần 2](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau1Fragment.java
+)
 
 <p align="center">
     <img width="200" alt="ThiGK_CHuVI" src="https://github.com/user-attachments/assets/a1c3ad39-b1db-464e-8841-79b1a355de8e" />
@@ -23,13 +28,30 @@
 
 **Câu 2**
 
+[code ở đây _ COMMIT lần 3](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau2Fragment.java
+)
+
 <img width="300" height="500" alt="THIgk_Cau2" src="https://github.com/user-attachments/assets/74182725-725b-4f7a-ac0e-a9b51005e2a1" />
 
 
 <br>
 <br>
 
-**Bài 8: Tùy chỉnh Listview(APP món an)**[đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH8_TuyChinhLV/app/src/main/java/mlinh/edu/th8_tuychinhlv/MainActivity.java)
+**Câu 3**
+[code ở đây _ COMMIT lần 5](https://github.com/mlinhhihi/65131773-AndroidProgramming/commit/d50c035178cb7256b4e76b025286ef0c5f66aae1#diff-a96c4bfe2ba0c78e7aa1dd8bb42da88ef631004d72c70751dd4c483308072b34
+)
+
+[code ở đây _ sửa bài](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/Cau3Fragment.java
+)
+
+
+<img width="300" height="600" alt="cau3" src="https://github.com/user-attachments/assets/ad1e51b2-ae62-4dfb-aee5-9bd7beb311d8" />
+
+<br>
+<br>
+
+****Bài 8:** Tùy chỉnh Listview(APP món an)**
+[đây dẫn đến bài làm](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/TH8_TuyChinhLV/app/src/main/java/mlinh/edu/th8_tuychinhlv/MainActivity.java)
 
 <img width="300" height="500" alt="bai8" src="https://github.com/user-attachments/assets/c3653808-87f0-4ff7-bd38-a0ce4d6d3b0d" />
 <br>
