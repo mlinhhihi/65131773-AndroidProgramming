@@ -12,7 +12,7 @@
 <br>
 [code ở đây](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/QuanLyChiTieu/app/src/main/java/vn/edu/mlinh123/quanlychitieu/MainActivity.java)
 
-<img width="1000" height="500" alt="vd_tuanHocSo" src="https://github.com/user-attachments/assets/d157e4fe-86b2-4f1b-9312-39b13e30375e" />
+<img width="700" height="500" alt="vd_tuanHocSo" src="https://github.com/user-attachments/assets/d157e4fe-86b2-4f1b-9312-39b13e30375e" />
 
 
 **THIGK2**
