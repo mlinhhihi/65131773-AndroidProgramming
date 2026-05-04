@@ -11,7 +11,7 @@
 
 ## 📚 Mục lục
 
-- [Bài tập Tuần học số](#bài-tập-tuần-học-số)
+- [Bài tập Tuần học số](#quan-ly-chi-tieu)
 - [THIGK2](#thigk2)
   - [Câu 1](#câu-1)
   - [Câu 2](#câu-2)
@@ -28,7 +28,7 @@
 ---
 
 
-## **Bài tập Tuần học Số**
+## Quản lý chi tiêu
 [code ở đây](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/QuanLyChiTieu/app/src/main/java/vn/edu/mlinh123/quanlychitieu/MainActivity.java)
 
 <img width="700" height="500" alt="vd_tuanHocSo" src="https://github.com/user-attachments/assets/d157e4fe-86b2-4f1b-9312-39b13e30375e" />
