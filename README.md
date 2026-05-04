@@ -11,7 +11,7 @@
 
 ## 📚 Mục lục
 
-- [Bài tập Quản lý chi tiêu_ Tuần học số](#quan-ly-chi-tieu)
+- [Bài tập Quản lý chi tiêu_ Tuần học số](#quản-lý-chi-tiêu)
 - [THIGK2](#thigk2)
   - [Câu 1](#câu-1)
   - [Câu 2](#câu-2)
