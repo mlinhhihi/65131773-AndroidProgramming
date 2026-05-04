@@ -34,8 +34,12 @@
 
 [code ở đây _ COMMIT lần 1](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ThiGK_65131773/app/src/main/java/thigk2/truongthimylinh/edu/thigk_65131773/MainActivity.java)
 
+
+
 ### **Câu 1**
 [code ở đây](...)
+
+<p align="center"> <img width="200" alt="ThiGK_CHuVI" src="https://github.com/user-attachments/assets/a1c3ad39-b1db-464e-8841-79b1a355de8e" /> <img width="200" alt="thiGK_S" src="https://github.com/user-attachments/assets/ffd94230-5657-4708-8111-a9bfe5cb6011" /> </p>
 
 ### **Câu 2**
 [code ở đây](...)
