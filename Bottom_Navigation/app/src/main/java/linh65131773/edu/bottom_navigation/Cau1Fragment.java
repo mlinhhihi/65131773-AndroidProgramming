@@ -1,4 +1,4 @@
-package thigk2.truongthimylinh.edu.thigk_65131773;
+package linh65131773.edu.bottom_navigation;
 
 import android.os.Bundle;
 
@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import linh65131773.edu.bottom_navigation.R;
 
 /**
  * A simple {@link Fragment} subclass.
