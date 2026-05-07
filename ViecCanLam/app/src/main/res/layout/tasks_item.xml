@@ -2,25 +2,26 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tvTenVCL"
     android:layout_width="match_parent"
     android:layout_height="100dp"
-    android:background="#DCA6A6">
+    android:background="#D9C1C1">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTenVCL"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="12dp"
         android:text="Tên việc cần làm hiện ở đây"
+        android:textColor="#F6AF1151"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvThoiGian"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
@@ -29,5 +30,5 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTenVCL" />
 </androidx.constraintlayout.widget.ConstraintLayout>
