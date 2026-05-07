@@ -32,15 +32,15 @@
 [code ở đây](https://github.com/mlinhhihi/65131773-AndroidProgramming/blob/main/ViecCanLam/app/src/main/java/vn/edu/mlinh123/vieccanlam/MainActivity.java)
 
 <p align="center">
-    <img width="100" height="300" alt="vcl_thêm" src="https://github.com/user-attachments/assets/2a8a92d1-2888-4827-84b2-8c8121f52677" />
-    <img width="200" height="600" alt="them_vcl" src="https://github.com/user-attachments/assets/5739a14b-a76e-4ba3-8c7c-3862461574b3" />
+    <img width="100" alt="vcl_thêm" src="https://github.com/user-attachments/assets/2a8a92d1-2888-4827-84b2-8c8121f52677" />
+    <img width="200" alt="them_vcl" src="https://github.com/user-attachments/assets/5739a14b-a76e-4ba3-8c7c-3862461574b3" />
     
 </p>
 <br>
 <br>
 <p align="center">
-    <img width="100" height="300" alt="vcl" src="https://github.com/user-attachments/assets/de0d213f-c8a6-439b-a352-93b37d63ca30" />
-    <img width="200" height="600" alt="kq_vcl" src="https://github.com/user-attachments/assets/03725979-0a63-4471-aec4-d17507916bff" />
+    <img width="100" alt="vcl" src="https://github.com/user-attachments/assets/de0d213f-c8a6-439b-a352-93b37d63ca30" />
+    <img width="200" alt="kq_vcl" src="https://github.com/user-attachments/assets/03725979-0a63-4471-aec4-d17507916bff" />
 </p>
 
 ---
